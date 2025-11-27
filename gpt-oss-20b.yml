@@ -1,4 +1,4 @@
-model: openai/gpt-oss-20b
+model: /media/fmodels/openai/gpt-oss-20b
 measurements: /home/phaedawg/unrestricted/llm-abliteration/gpt-oss-20b_Measures
 output: /media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned
 ablate:
