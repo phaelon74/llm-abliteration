@@ -304,18 +304,30 @@ if __name__ == "__main__":
     # autodetect BitsAndBytes quant; overrides option
     if hasattr(model_config,"quantization_config"):
         bnb_config = getattr(model_config, "quantization_config")
-        if (bnb_config["load_in_4bit"] == True):
+        
+        # Helper function to safely get value from dict or object
+        def safe_get_config(config, key, default=None):
+            """Safely get value from config whether it's a dict or object."""
+            if isinstance(config, dict):
+                return config.get(key, default)
+            else:
+                return getattr(config, key, default)
+        
+        # Check for 4bit quantization
+        load_in_4bit = safe_get_config(bnb_config, "load_in_4bit", False)
+        if load_in_4bit == True:
             qbit = "4bit"
             # Override precision with compute dtype from quant config if available
-            if "bnb_4bit_compute_dtype" in bnb_config and bnb_config["bnb_4bit_compute_dtype"]:
-                compute_dtype = bnb_config["bnb_4bit_compute_dtype"]
+            compute_dtype = safe_get_config(bnb_config, "bnb_4bit_compute_dtype")
+            if compute_dtype:
                 if isinstance(compute_dtype, str):
                     dtype_map = {"bfloat16": torch.bfloat16, "float16": torch.float16, "float32": torch.float32}
                     precision = dtype_map.get(compute_dtype, precision)
                 else:
                     precision = compute_dtype
                 print(f"Using compute dtype from quant config: {precision}")
-        elif (bnb_config["load_in_8bit"] == True):
+        # Check for 8bit quantization
+        elif safe_get_config(bnb_config, "load_in_8bit", False) == True:
             qbit = "8bit"
 
     if qbit == "4bit":
