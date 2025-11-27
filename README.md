@@ -10,6 +10,15 @@ The code in various forms has been tested on Llama-3.2, Qwen2.5-Coder, Ministral
 
 VRAM/RAM requirements: This codebase reflects efforts to reduce VRAM usage. You can abliterate whatever any model provided it fits within VRAM. Loading model in 4-bit precision using bitsandbytes is possible and recommended for large models when VRAM is limited. It is assumed that there is enough cpu memory to load the **bf16** (or full weight) model; the method for ablating the refusal vector could be enhanced to perform lazy-loading in the future to reduce this requirement.
 
+**Multi-GPU Support:** Both `measure.py` and `sharded_ablate.py` now support multi-GPU systems:
+- **Measurement (`measure.py`)**: Uses `device_map="auto"` to automatically distribute model layers across available GPUs, reducing VRAM requirements per GPU. Hidden states are automatically collected and processed consistently regardless of which GPU they're on.
+- **Ablation (`sharded_ablate.py`)**: Automatically detects available GPUs and processes multiple shards in parallel, with each shard assigned to a GPU using round-robin distribution. This provides near-linear speedup for large models with many shards.
+
+**VRAM Requirements per Step:**
+- **Measurement**: Model size + batch overhead (can be reduced with 4-bit/8-bit quantization). With multi-GPU, VRAM is distributed across GPUs.
+- **Analysis**: Minimal VRAM (CPU-only operation).
+- **Ablation**: Largest shard size + computation overhead (typically 5-10GB per GPU). With multi-GPU, each GPU processes different shards, reducing per-GPU memory requirements.
+
 CUDA is assumed to be available. The original abliteration paper and code used TransformerLens, and measured resid_pre, resid_mid, and resid_post. Failspy's code measured resid_pre and resid_post. Sumandora's code based on Transformers accesses the equivalent of resid_post with hidden_states.
 
 > [!NOTE]
@@ -69,7 +78,7 @@ The `-c` option will put up some nice charting. Look toward middle to late middl
 ### Abliterate model
 
 ```
-python sharded_abliteration.py <abliteration_yaml_file>
+python sharded_ablate.py <abliteration_yaml_file>
 ```
 Look at the example YAML file to see how this is structured.
 YAML was opted for in order to allow more than one source layer for refusal direction measurement, and for different strategies to be applied per destination layer.
@@ -107,9 +116,18 @@ Prompts in this repository are for illustrative purposes only, and have mostly b
 ```shell
 python measure.py -m <path_to_your_model> -o <output_file> --data-harmful /path/to/my/harmful.txt --data-harmless /path/to/my/harmless.txt
 ```
+### Multi-GPU Usage
+
+The scripts automatically detect and utilize multiple GPUs when available:
+
+- **Measurement**: No additional configuration needed. The script will automatically distribute the model across available GPUs using Accelerate's `device_map="auto"`.
+- **Ablation**: Automatically processes shards in parallel across available GPUs. Each GPU processes different shards simultaneously, providing significant speedup for large models.
+
+To verify multi-GPU usage, check the console output which will display the number of detected GPUs.
+
 ### Tips
 
-If you have limited VRAM, try loading the model as a 4-bit or 8-bit BitsAndBytes quant.
+If you have limited VRAM, try loading the model as a 4-bit or 8-bit BitsAndBytes quant. Multi-GPU support further reduces VRAM requirements by distributing the model across GPUs.
 
 ## Credits
 

@@ -36,6 +36,39 @@ def welford_gpu_batched_multilayer_float32(
     counts = {layer_idx: 0 for layer_idx in layer_indices}
     dtype = model.dtype
 
+    # Determine accumulation device for multi-GPU models
+    # When device_map="auto" is used, hidden states may be on different GPUs
+    # We need a consistent device for Welford accumulation
+    # Prefer GPU 0 if available, otherwise CPU
+    if torch.cuda.is_available():
+        accumulation_device = torch.device('cuda:0')
+    else:
+        accumulation_device = torch.device('cpu')
+    
+    # For input placement, determine the appropriate device
+    # Check if model has device_map attribute (distributed model)
+    if hasattr(model, 'hf_device_map') and model.hf_device_map:
+        # Model is distributed, use first device from device_map
+        first_device = next(iter(model.hf_device_map.values()))
+        if isinstance(first_device, torch.device):
+            input_device = first_device
+        elif isinstance(first_device, str):
+            input_device = torch.device(first_device)
+        else:
+            input_device = accumulation_device
+    else:
+        # Single device model, use model's device
+        if hasattr(model, 'device'):
+            model_dev = model.device
+            if isinstance(model_dev, torch.device):
+                input_device = model_dev
+            elif isinstance(model_dev, str):
+                input_device = torch.device(model_dev)
+            else:
+                input_device = accumulation_device
+        else:
+            input_device = accumulation_device
+
     for i in tqdm(range(0, len(formatted_prompts), batch_size), desc=desc):
         batch_prompts = formatted_prompts[i:i+batch_size]
 
@@ -58,8 +91,8 @@ def welford_gpu_batched_multilayer_float32(
                 return_tensors="pt",
             )
         
-        batch_input = batch_encoding['input_ids'].to(model.device)
-        batch_mask = batch_encoding['attention_mask'].to(model.device)
+        batch_input = batch_encoding['input_ids'].to(input_device)
+        batch_mask = batch_encoding['attention_mask'].to(input_device)
 
         # Use generate to get hidden states at the first generated token position
         raw_output = model.generate(
@@ -77,8 +110,12 @@ def welford_gpu_batched_multilayer_float32(
 
         # Process layers with Welford in float32
         for layer_idx in layer_indices:
-            # Cast to float32 for accumulation
-            current_hidden = hidden_states[layer_idx][:, pos, :].float()
+            # Extract hidden state and move to accumulation device for consistent processing
+            # Hidden states from distributed models may be on different GPUs
+            current_hidden = hidden_states[layer_idx][:, pos, :]
+            # Move to accumulation device before processing
+            current_hidden = current_hidden.to(accumulation_device).float()
+            
             if (clip < 1.0):
                 current_hidden = magnitude_clip(current_hidden, clip)
 
@@ -86,9 +123,12 @@ def welford_gpu_batched_multilayer_float32(
             total_count = counts[layer_idx] + batch_size_actual
 
             if means[layer_idx] is None:
-                # Initialize mean in float32
+                # Initialize mean in float32 on accumulation device
                 means[layer_idx] = current_hidden.mean(dim=0)
             else:
+                # Ensure means is on accumulation device
+                if means[layer_idx].device != accumulation_device:
+                    means[layer_idx] = means[layer_idx].to(accumulation_device)
                 # All operations in float32 (means[layer_idx] is already float32)
                 delta = current_hidden - means[layer_idx]
                 means[layer_idx] += delta.sum(dim=0) / total_count
@@ -356,13 +396,13 @@ if __name__ == "__main__":
         deccp_list = load_dataset("augmxnt/deccp", split="censored")
         harmful_list += deccp_list["text"]
 
-    # Assume "cuda" device for now; refactor later if there's demand for other GPU-accelerated platforms
+    # Use "auto" device_map for optimal multi-GPU distribution via Accelerate
     if hasattr(model_config, "quantization_config"):
         model = AutoModelForCausalLM.from_pretrained(
             args.model,
 #            trust_remote_code=True,
             dtype=precision,
-            device_map="cuda",
+            device_map="auto",
             attn_implementation="flash_attention_2" if args.flash_attn else None,
         )
     else:
@@ -371,7 +411,7 @@ if __name__ == "__main__":
 #            trust_remote_code=True,
             dtype=precision,
             low_cpu_mem_usage=True,
-            device_map="cuda",
+            device_map="auto",
             quantization_config=quant_config,
             attn_implementation="flash_attention_2" if args.flash_attn else None,
         )
@@ -390,7 +430,7 @@ if __name__ == "__main__":
         try:
             processor = AutoProcessor.from_pretrained(
                 args.model,
-                device_map="cuda",
+                device_map="auto",
                 padding=True,
             )
             tokenizer = processor.tokenizer
@@ -402,14 +442,14 @@ if __name__ == "__main__":
             tokenizer = AutoTokenizer.from_pretrained(
                 args.model,
 #                trust_remote_code=True,
-                device_map="cuda",
+                device_map="auto",
                 padding=True,
             )
     else:
         tokenizer = AutoTokenizer.from_pretrained(
             args.model,
 #            trust_remote_code=True,
-            device_map="cuda",
+            device_map="auto",
             padding=True,
         )
 

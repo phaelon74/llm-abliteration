@@ -3,8 +3,10 @@ import gc
 import json
 import os
 import shutil
+import threading
 import torch
 import yaml
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from safetensors.torch import load_file, save_file
 from tqdm import tqdm
@@ -35,17 +37,26 @@ Safetensors (HuggingFace format) stores them as [in_features, out_features] - tr
 
 
 def modify_tensor_norm_preserved(
-    W: torch.Tensor, refusal_dir: torch.Tensor, scale_factor: float = 1.0,
+    W: torch.Tensor, refusal_dir: torch.Tensor, scale_factor: float = 1.0, device_id: int = 0,
 ) -> torch.Tensor:
     """
     Modify weight tensor by ablating refusal direction while preserving row norms.
     Returns a plain tensor (not a Parameter).
+    
+    Args:
+        W: Weight tensor to modify
+        refusal_dir: Refusal direction vector
+        scale_factor: Scaling factor for ablation
+        device_id: GPU device ID to use for computation (default: 0)
     """
     original_dtype = W.dtype
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    if torch.cuda.is_available() and device_id < torch.cuda.device_count():
+        device = f'cuda:{device_id}'
+    else:
+        device = 'cpu'
 
     with torch.no_grad():
-        # Move tensors for computation
+        # Move tensors for computation on specified device
         # Transpose here to convert from safetensors convention
         W_gpu = W.to(device, dtype=torch.float32, non_blocking=True).T
         refusal_dir_gpu = refusal_dir.to(device, dtype=torch.float32, non_blocking=True)
@@ -83,11 +94,96 @@ def modify_tensor_norm_preserved(
         del W_gpu, refusal_dir_gpu, refusal_normalized
         del W_direction, W_direction_new, W_norm, projection, W_modified
         
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
-            torch.cuda.empty_cache()
+        if torch.cuda.is_available() and device_id < torch.cuda.device_count():
+            # Synchronize and clear cache for the specific device
+            with torch.cuda.device(device_id):
+                torch.cuda.synchronize()
+                torch.cuda.empty_cache()
 
     return result.detach().clone()
+
+
+def process_single_shard(
+    shard_file: str,
+    shard_path: Path,
+    shard_modifications: list,
+    measures: dict,
+    precision: torch.dtype,
+    output_path: str,
+    device_id: int,
+    file_lock: threading.Lock,
+) -> None:
+    """
+    Process a single shard: load, modify if needed, and save.
+    This function is designed to be called in parallel across multiple GPUs.
+    
+    Args:
+        shard_file: Name of the shard file
+        shard_path: Full path to the shard file
+        shard_modifications: List of (key, layer, measurement, scale, sparsity) tuples
+        measures: Dictionary of measurement tensors
+        precision: Model precision dtype
+        output_path: Output directory path
+        device_id: GPU device ID to use
+        file_lock: Thread lock for file I/O operations
+    """
+    if shard_modifications:
+        # Shard needs modification
+        # Load the entire shard
+        state_dict = load_file(str(shard_path))
+        
+        # Apply all modifications for this shard
+        for key, layer, measurement, scale, sparsity in shard_modifications:
+            if key in state_dict:
+                # Compute refusal direction on-the-fly
+                refusal_dir = measures[f'refuse_{measurement}'].float()
+                harmless_dir = measures[f'harmless_{layer}'].float()
+                
+                # Normalize harmless direction
+                harmless_normalized = torch.nn.functional.normalize(harmless_dir, dim=0)
+                
+                # Project and subtract to refine refusal direction
+                projection_scalar = refusal_dir @ harmless_normalized
+                refined_refusal_dir = refusal_dir - projection_scalar * harmless_normalized
+                refusal_dir = refined_refusal_dir.to(precision)
+                
+                # Apply sparsity
+                if sparsity > 0.0:
+                    refusal_dir = magnitude_sparsify(refusal_dir, fraction=sparsity)
+                
+                # Normalize
+                refusal_dir = torch.nn.functional.normalize(refusal_dir, dim=-1)
+                
+                # Apply modification using specified GPU
+                state_dict[key] = modify_tensor_norm_preserved(
+                    state_dict[key],
+                    refusal_dir,
+                    scale,
+                    device_id=device_id,
+                ).contiguous()
+                
+                # Clean up
+                del refusal_dir, harmless_dir, harmless_normalized, refined_refusal_dir
+                gc.collect()
+        
+        # Save modified shard with thread-safe file I/O
+        output_file_path = os.path.join(output_path, shard_file)
+        # Use lock to ensure thread-safe file writing
+        with file_lock:
+            save_file(state_dict, output_file_path)
+        
+        # Clean up
+        del state_dict
+        gc.collect()
+        if torch.cuda.is_available() and device_id < torch.cuda.device_count():
+            with torch.cuda.device(device_id):
+                torch.cuda.empty_cache()
+    else:
+        # Just copy unmodified shards (no need to load)
+        # Use lock for thread-safe file copying
+        output_file_path = os.path.join(output_path, shard_file)
+        with file_lock:
+            shutil.copy(str(shard_path), output_file_path)
 
 
 def ablate_by_layers_sharded(
@@ -97,10 +193,17 @@ def ablate_by_layers_sharded(
     output_path: str,
 ) -> None:
     """
-    Memory-efficient ablation for sharded models.
+    Memory-efficient ablation for sharded models with multi-GPU support.
     Handles both local paths and HuggingFace Hub models.
-    Loads one shard at a time, applies all modifications, then saves.
+    Processes multiple shards in parallel across available GPUs.
     """
+    
+    # Detect available GPUs
+    num_gpus = torch.cuda.device_count() if torch.cuda.is_available() else 0
+    if num_gpus > 0:
+        print(f"Detected {num_gpus} GPU(s) for parallel processing")
+    else:
+        print("No GPUs detected, using CPU")
     
     # Load config using transformers (handles both local and HF hub)
     print(f"Loading config for {model_name}...")
@@ -165,66 +268,47 @@ def ablate_by_layers_sharded(
     
     os.makedirs(output_path, exist_ok=True)
     
-    # Process each shard
+    # Prepare shards for processing
     all_shards = sorted(set(weight_map.values()))
     
-    for shard_file in tqdm(all_shards, desc="Processing shards"):
-        shard_path = model_dir / shard_file
+    # Create thread lock for file I/O operations
+    file_lock = threading.Lock()
+    
+    # Determine number of workers (use number of GPUs, or 1 for CPU)
+    max_workers = max(1, num_gpus) if num_gpus > 0 else 1
+    
+    # Process shards in parallel
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = []
         
-        if shard_file in shard_modifications:
-            print(f"\nLoading and modifying {shard_file}...")
+        for idx, shard_file in enumerate(all_shards):
+            shard_path = model_dir / shard_file
+            modifications = shard_modifications.get(shard_file, [])
             
-            # Load the entire shard
-            state_dict = load_file(str(shard_path))
+            # Assign GPU using round-robin
+            device_id = idx % max_workers if num_gpus > 0 else 0
             
-            # Apply all modifications for this shard
-            for key, layer, measurement, scale, sparsity in shard_modifications[shard_file]:
-                if key in state_dict:
-                    print(f"  Modifying layer {layer}: {key}")
-                    
-                    # Compute refusal direction on-the-fly
-                    refusal_dir = measures[f'refuse_{measurement}'].float()
-                    harmless_dir = measures[f'harmless_{layer}'].float()
-                    
-                    # Normalize harmless direction
-                    harmless_normalized = torch.nn.functional.normalize(harmless_dir, dim=0)
-                    
-                    # Project and subtract to refine refusal direction
-                    projection_scalar = refusal_dir @ harmless_normalized
-                    refined_refusal_dir = refusal_dir - projection_scalar * harmless_normalized
-                    refusal_dir = refined_refusal_dir.to(precision)
-                    
-                    # Apply sparsity
-                    if sparsity > 0.0:
-                        refusal_dir = magnitude_sparsify(refusal_dir, fraction=sparsity)
-                    
-                    # Normalize
-                    refusal_dir = torch.nn.functional.normalize(refusal_dir, dim=-1)
-                    
-                    # Apply modification
-                    state_dict[key] = modify_tensor_norm_preserved(
-                        state_dict[key],
-                        refusal_dir,
-                        scale,
-                    ).contiguous()
-                    
-                    # Clean up
-                    del refusal_dir, harmless_dir, harmless_normalized, refined_refusal_dir
-                    gc.collect()
-            
-            # Save modified shard
-            print(f"  Saving {shard_file}...")
-            save_file(state_dict, f"{output_path}/{shard_file}")
-            
-            # Clean up
-            del state_dict
-            gc.collect()
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-            
-        else:
-            # Just copy unmodified shards (no need to load)
-            shutil.copy(str(shard_path), f"{output_path}/{shard_file}")
+            # Submit shard processing task
+            future = executor.submit(
+                process_single_shard,
+                shard_file,
+                shard_path,
+                modifications,
+                measures,
+                precision,
+                output_path,
+                device_id,
+                file_lock,
+            )
+            futures.append((future, shard_file))
+        
+        # Process with progress bar
+        for future, shard_file in tqdm(futures, desc="Processing shards"):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"\nError processing {shard_file}: {e}")
+                raise
     
     # Copy the index file
     print("\nCopying configuration files...")
