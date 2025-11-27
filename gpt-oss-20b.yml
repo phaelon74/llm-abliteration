@@ -1,0 +1,57 @@
+model: openai/gpt-oss-20b
+measurements: /home/phaedawg/unrestricted/llm-abliteration/gpt-oss-20b_Measures
+output: /media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned
+ablate:
+  - layer: 11
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 12
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 13
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 14
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 15
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 16
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 17
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 18
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 19
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 20
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 21
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 22
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+  - layer: 23
+    measurement: 23
+    scale: 1.0
+    sparsity: 0.00
+
