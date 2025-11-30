@@ -1,0 +1,1047 @@
+[W1130 03:25:08.089657910 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:08.421000 7205 torch/_inductor/config.py:714] compile_threads set to 32
+[W1130 03:25:08.574558669 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.575030524 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.575207042 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:08.819000 7205 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmp1hnh8w4u
+[W1130 03:25:08.575691498 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:08.819000 7205 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmp1hnh8w4u/_remote_module_non_scriptable.py
+[W1130 03:25:08.575941135 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576113444 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576257322 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576392411 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576532400 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576666018 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576800657 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.576932436 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.577066795 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.577192163 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.632258422 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.632824706 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633009565 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633212473 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633381191 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633537729 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633685478 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633829627 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.633969565 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.634132394 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.634284182 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.634435731 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.634586729 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.634969856 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:08.635144274 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+
+     #@@ #@@      @@# @@#
+    @@  @@          @@  @@           =@@#                               @@                 #@    =@@#.
+    @@    #@@@@@@@@@    @@           #@#@=                              @@                 #@     .=@@
+      #@@@@@@@@@@@@@@@@@            =@# @#     ##=     ##    =####=+    @@      =#####+  =#@@###.   @@
+    @@@@@@@@@@/  +@@/  +@@          #@  =@=     #@=   @@   =@#+  +#@#   @@    =@#+  +#@#   #@.      @@
+    @@@@@@@@@@  ##@@  ##@@         =@#   @#      =@# @#    @@      @@   @@    @@      #@   #@       @@
+     @@@@@@@@@@@@@@@@@@@@          #@=+++#@=      =@@#     @@      @@   @@    @@      #@   #@       @@
+                                  =@#=====@@     =@# @#    @@      @@   @@    @@      #@   #@       @@
+    @@@@@@@@@@@@@@@@  @@@@        #@      #@=   #@=  +@@   #@#    =@#   @@.   =@#    =@#   #@.      @@
+                                 =@#       @#  #@=     #@   =#@@@@#=    +#@@=  +#@@@@#=    .##@@+   @@
+    @@@@  @@@@@@@@@@@@@@@@
+
+I1130 03:25:10.029000 7205 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 03:25:10.029000 7205 torch/_inductor/remote_cache.py:417] 
+I1130 03:25:10.030000 7205 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 03:25:10.030000 7205 torch/_dynamo/eval_frame.py:475] 
+I1130 03:25:10.030000 7205 torch/_dynamo/eval_frame.py:475] ]
+I1130 03:25:10.035000 7205 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 03:25:10.035000 7205 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 03:25:10.035000 7205 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 03:25:10.035000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.035000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.035000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.035000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.036000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.036000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.036000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.036000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.036000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.037000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.037000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.037000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.037000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.037000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.038000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 03:25:10.038000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 03:25:10.038000 7205 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 03:25:10.042000 7205 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 03:25:10.042000 7205 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 03:25:10.043000 7205 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 03:25:12.186000 7137 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:12.578000 7137 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmp1z271jri
+I1130 03:25:12.579000 7137 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmp1z271jri/_remote_module_non_scriptable.py
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `6`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+I1130 03:25:14.531000 7137 torch/distributed/elastic/rendezvous/static_tcp_rendezvous.py:64] Creating TCPStore as the c10d::Store implementation
+I1130 03:25:14.532000 7137 torch/distributed/elastic/multiprocessing/api.py:278] log directory set to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w
+I1130 03:25:14.533000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker0 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/0/error.json
+I1130 03:25:14.533000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker1 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/1/error.json
+I1130 03:25:14.533000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker2 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/2/error.json
+I1130 03:25:14.533000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker3 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/3/error.json
+I1130 03:25:14.534000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker4 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/4/error.json
+I1130 03:25:14.534000 7137 torch/distributed/elastic/multiprocessing/api.py:382] Setting worker5 reply file to: /tmp/torchelastic_xz1v2a0h/none_tiz_er9w/attempt_0/5/error.json
+I1130 03:25:20.127000 7531 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:20.519000 7531 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmpyvo3w_yd
+I1130 03:25:20.519000 7531 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmpyvo3w_yd/_remote_module_non_scriptable.py
+[W1130 03:25:20.278154255 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:20.556000 7533 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:20.728000 7535 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:20.786000 7537 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:20.795000 7539 torch/_inductor/config.py:714] compile_threads set to 32
+I1130 03:25:20.825000 7541 torch/_inductor/config.py:714] compile_threads set to 32
+[W1130 03:25:20.676261852 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:20.948000 7533 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmpa440crgm
+I1130 03:25:20.948000 7533 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmpa440crgm/_remote_module_non_scriptable.py
+[W1130 03:25:21.769673800 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.770205295 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.770323374 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.770817259 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771023267 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771154366 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771268885 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771380114 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771484553 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771708911 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771816390 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.771923539 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.772035618 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.772140047 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.821906736 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.822426431 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.822633749 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.822826517 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823038755 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823235423 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823411262 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823597030 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823784348 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.823971456 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.824173444 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.824360093 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.824549451 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.824971987 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.825173955 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:21.115000 7535 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmpgdmozdz2
+I1130 03:25:21.116000 7535 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmpgdmozdz2/_remote_module_non_scriptable.py
+[W1130 03:25:21.888799461 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:21.175000 7537 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmppfe45b5r
+I1130 03:25:21.175000 7537 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmppfe45b5r/_remote_module_non_scriptable.py
+[W1130 03:25:21.934607378 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+I1130 03:25:21.182000 7539 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmp8th_f7s1
+I1130 03:25:21.183000 7539 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmp8th_f7s1/_remote_module_non_scriptable.py
+I1130 03:25:21.215000 7541 torch/distributed/nn/jit/instantiator.py:24] Created a temporary directory at /tmp/tmpwzodxjts
+I1130 03:25:21.216000 7541 torch/distributed/nn/jit/instantiator.py:75] Writing /tmp/tmpwzodxjts/_remote_module_non_scriptable.py
+[W1130 03:25:21.979412536 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.994919366 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.159073022 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.159437398 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.159557047 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160069462 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160273630 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160393309 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160505458 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160617877 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160722906 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.160964043 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.161080892 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.161187881 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.161295100 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.161397769 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.211133649 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.211541885 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.211684584 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.211813802 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.211933871 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212073550 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212193039 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212312188 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212429647 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212553615 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212679224 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212799043 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.212920242 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.213234639 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.213373228 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.380957760 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.381384656 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.381514444 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382052249 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382264077 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382394926 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382510825 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382631094 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382744023 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.382985880 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.383111659 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.383221108 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.383328187 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.383431616 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.422188762 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.422576468 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.422710897 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423229942 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423432690 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423558799 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423682517 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423800456 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.423916225 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.424171363 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.424286042 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.424397860 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.424503659 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.424610938 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.436258366 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.436738071 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.436918710 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437110518 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437281606 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437438575 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437585613 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437736352 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.437885700 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.438054499 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.438222507 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.438370676 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.438516674 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.438875941 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.439063509 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.472700694 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.473130190 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.473254339 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.473774014 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.473978232 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474118371 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474235979 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474353958 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474463367 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474699275 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474811824 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.474920203 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.475038212 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.475142221 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.476701496 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477193861 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477375649 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477539758 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477689916 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477848905 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.477997233 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478161872 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478308920 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478455039 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478605197 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478751056 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.478892094 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.479270061 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.479438929 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.481836096 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.482289272 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.482442400 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483057494 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483303212 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483471620 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483621199 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483763507 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.483905186 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.484208163 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.484344102 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.484486520 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.484623879 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.484757268 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.528790673 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.529286818 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.529475306 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.529645305 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.529817753 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.529976201 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530144730 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530302078 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530450677 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530612755 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530768464 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.530924822 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.531103770 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.531491757 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.531663065 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.536077822 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.536556848 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.536725946 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.536879945 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537044103 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537196382 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537338040 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537478969 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537624378 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537763886 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.537902045 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.538053183 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.538200162 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.538569418 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:21.538723197 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:22.827650578 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:22.498881809 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:22.701733381 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:22.730428004 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:22.738365387 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[W1130 03:25:23.760912849 Module.cpp:185] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+
+[2025-11-30 03:25:23,558] [INFO] [axolotl.cli.config.load_cfg:245] [PID:7513] [RANK:0] config:
+{
+  "activation_offloading": false,
+  "adapter": "lora",
+  "axolotl_config_path": "finetune_gpt_oss_20b.yaml",
+  "base_model": "/media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned/dequanted/",
+  "base_model_config": "/media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned/dequanted/",
+  "batch_size": 48,
+  "bf16": true,
+  "capabilities": {
+    "bf16": true,
+    "compute_capability": "sm_86",
+    "fp8": false,
+    "n_gpu": 6,
+    "n_node": 1
+  },
+  "context_parallel_size": 1,
+  "dataloader_num_workers": 4,
+  "dataset_processes": 48,
+  "datasets": [
+    {
+      "message_property_mappings": {
+        "content": "content",
+        "role": "role"
+      },
+      "path": "../Datasets/dataset_20251128_154142_train.jsonl",
+      "trust_remote_code": false,
+      "type": "completion"
+    },
+    {
+      "message_property_mappings": {
+        "content": "content",
+        "role": "role"
+      },
+      "path": "../Datasets/dataset_20251128_154142_val.jsonl",
+      "trust_remote_code": false,
+      "type": "completion"
+    }
+  ],
+  "ddp": true,
+  "ddp_timeout": 1800,
+  "deepspeed": {
+    "bf16": {
+      "enabled": true
+    },
+    "gradient_accumulation_steps": 8,
+    "gradient_clipping": 1.0,
+    "train_batch_size": "auto",
+    "train_micro_batch_size_per_gpu": "auto",
+    "wall_clock_breakdown": false,
+    "zero_optimization": {
+      "allgather_bucket_size": 500000000.0,
+      "allgather_partitions": true,
+      "contiguous_gradients": true,
+      "offload_optimizer": {
+        "device": "cpu",
+        "pin_memory": true
+      },
+      "overlap_comm": true,
+      "reduce_bucket_size": 500000000.0,
+      "reduce_scatter": true,
+      "stage": 3,
+      "stage3_gather_16bit_weights_on_model_save": true,
+      "stage3_max_live_parameters": 1000000000.0,
+      "stage3_max_reuse_distance": 1000000000.0,
+      "stage3_param_persistence_threshold": 1000000.0,
+      "stage3_prefetch_bucket_size": 500000000.0
+    }
+  },
+  "device": "cuda:0",
+  "device_map": {
+    "": 0
+  },
+  "dion_rank_fraction": 1.0,
+  "dion_rank_multiple_of": 1,
+  "env_capabilities": {
+    "torch_version": "2.7.1"
+  },
+  "eval_batch_size": 1,
+  "eval_causal_lm_metrics": [
+    "sacrebleu",
+    "comet",
+    "ter",
+    "chrf"
+  ],
+  "eval_max_new_tokens": 128,
+  "eval_steps": 500,
+  "eval_strategy": "steps",
+  "eval_table_size": 0,
+  "fp16": false,
+  "gradient_accumulation_steps": 8,
+  "gradient_checkpointing": true,
+  "gradient_checkpointing_kwargs": {
+    "use_reentrant": true
+  },
+  "greater_is_better": false,
+  "group_by_length": false,
+  "learning_rate": 0.0003,
+  "lisa_layers_attribute": "model.layers",
+  "load_best_model_at_end": true,
+  "load_in_4bit": false,
+  "load_in_8bit": false,
+  "local_rank": 0,
+  "logging_steps": 10,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "lora_r": 16,
+  "lora_target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "loraplus_lr_embedding": 1e-06,
+  "low_cpu_mem_usage": true,
+  "lr_scheduler": "cosine",
+  "max_prompt_len": 512,
+  "mean_resizing_embeddings": false,
+  "metric_for_best_model": "eval_loss",
+  "micro_batch_size": 1,
+  "model_config_type": "gpt_oss",
+  "num_epochs": 3.0,
+  "optimizer": "adamw_torch",
+  "output_dir": "./outputs/gpt-oss-20b-creative-writing",
+  "pretrain_multipack_attn": true,
+  "pretrain_multipack_buffer_size": 10000,
+  "profiler_steps_start": 0,
+  "qlora_sharded_model_loading": false,
+  "ray_num_workers": 1,
+  "remove_unused_columns": false,
+  "resources_per_worker": {
+    "GPU": 1
+  },
+  "sample_packing_bin_size": 200,
+  "sample_packing_group_size": 100000,
+  "save_only_model": false,
+  "save_safetensors": true,
+  "save_steps": 500,
+  "save_total_limit": 3,
+  "sequence_len": 512,
+  "shuffle_before_merging_datasets": false,
+  "shuffle_merged_datasets": true,
+  "skip_prepare_dataset": false,
+  "strict": false,
+  "tensor_parallel_size": 1,
+  "tf32": true,
+  "tiled_mlp_use_original_mlp": true,
+  "tokenizer_config": "/media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned/dequanted/",
+  "torch_dtype": "torch.bfloat16",
+  "train_on_inputs": false,
+  "trl": {
+    "log_completions": false,
+    "mask_truncated_completions": false,
+    "ref_model_mixup_alpha": 0.9,
+    "ref_model_sync_steps": 64,
+    "scale_rewards": true,
+    "sync_ref_model": false,
+    "use_vllm": false,
+    "vllm_server_host": "0.0.0.0",
+    "vllm_server_port": 8000
+  },
+  "trust_remote_code": false,
+  "use_ray": false,
+  "val_set_size": 0.0,
+  "vllm": {
+    "device": "auto",
+    "dtype": "auto",
+    "gpu_memory_utilization": 0.9,
+    "host": "0.0.0.0",
+    "port": 8000
+  },
+  "warmup_steps": 100,
+  "weight_decay": 0.01,
+  "world_size": 6
+}[39m
+[33m[2025-11-30 03:25:23,560] [WARNING] [axolotl.cli.checks.check_user_token:46] [PID:7513] [RANK:0] Error verifying HuggingFace token. Remember to log in using `huggingface-cli login` and get your access token from https://huggingface.co/settings/tokens if you want to use gated models or datasets.[39m
+[2025-11-30 03:25:23,811] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7518] [RANK:5] Loading raw datasets...[39m
+[2025-11-30 03:25:23,970] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7518] [RANK:5] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:24,304] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7518] [RANK:5] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:24,304] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7518] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:24,344] [INFO] [axolotl.loaders.tokenizer.load_tokenizer:300] [PID:7513] [RANK:0] No Chat template selected. Consider adding a chat template for easier inference.[39m
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:50, 42.65 examples/s]Dropping Long Sequences (>512) (num_proc=48):   8%|▊         | 184/2197 [00:01<00:10, 198.09 examples/s]Dropping Long Sequences (>512) (num_proc=48):  63%|██████▎   | 1380/2197 [00:01<00:00, 1873.90 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1464.35 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 892.38 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 892.38 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 892.38 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 892.38 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 892.38 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 892.38 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 892.38 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 892.38 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 892.38 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 4938.15 examples/s]
+[2025-11-30 03:25:26,741] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7514] [RANK:1] Loading raw datasets...[39m
+[2025-11-30 03:25:26,898] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7514] [RANK:1] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:27,235] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7514] [RANK:1] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:27,235] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7514] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:52, 40.92 examples/s]Dropping Long Sequences (>512) (num_proc=48):  10%|█         | 230/2197 [00:01<00:08, 234.42 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1428.23 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 902.01 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 902.01 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 902.01 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 902.01 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 902.01 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 902.01 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 902.01 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 902.01 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 902.01 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 5020.62 examples/s]
+[2025-11-30 03:25:29,718] [INFO] [axolotl.utils.data.shared.load_preprocessed_dataset:478] [PID:7513] [RANK:0] Unable to find prepared dataset in last_run_prepared/9b21c0fce759abcaab51bd21c4572147[39m
+[2025-11-30 03:25:29,718] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7513] [RANK:0] Loading raw datasets...[39m
+[33m[2025-11-30 03:25:29,718] [WARNING] [axolotl.utils.data.sft._load_raw_datasets:316] [PID:7513] [RANK:0] Processing datasets during training can lead to VRAM instability. Please pre-process your dataset using `axolotl preprocess path/to/config.yml`.[39m
+[2025-11-30 03:25:29,886] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7513] [RANK:0] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:30,221] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7513] [RANK:0] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:30,221] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7513] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:30,470] [INFO] [axolotl.utils.data.shared.merge_datasets:553] [PID:7513] [RANK:0] Merging datasets...[39m
+[2025-11-30 03:25:30,488] [INFO] [axolotl.utils.data.utils.handle_long_seq_in_dataset:209] [PID:7513] [RANK:0] min_input_len: 1[39m
+[2025-11-30 03:25:30,488] [INFO] [axolotl.utils.data.utils.handle_long_seq_in_dataset:211] [PID:7513] [RANK:0] max_input_len: 512[39m
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:48, 44.40 examples/s]Dropping Long Sequences (>512) (num_proc=48):   8%|▊         | 184/2197 [00:01<00:10, 198.63 examples/s]Dropping Long Sequences (>512) (num_proc=48):  94%|█████████▍| 2062/2197 [00:01<00:00, 2846.66 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1501.32 examples/s]
+[33m[2025-11-30 03:25:32,173] [WARNING] [axolotl.utils.data.utils.handle_long_seq_in_dataset:251] [PID:7513] [RANK:0] Dropped 1 samples from dataset[39m
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 938.71 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 938.71 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 938.71 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 938.71 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 938.71 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 938.71 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 938.71 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 938.71 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 938.71 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 5146.60 examples/s]
+[2025-11-30 03:25:32,665] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7515] [RANK:2] Loading raw datasets...[39m
+[2025-11-30 03:25:32,722] [INFO] [axolotl.utils.data.sft._prepare_standard_dataset:127] [PID:7513] [RANK:0] Maximum number of steps set at 138[39m
+[2025-11-30 03:25:32,825] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7515] [RANK:2] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:33,164] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7515] [RANK:2] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:33,164] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7515] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:33,497] [INFO] [axolotl.loaders.tokenizer.load_tokenizer:300] [PID:7513] [RANK:0] No Chat template selected. Consider adding a chat template for easier inference.[39m
+[2025-11-30 03:25:33,505] [INFO] [axolotl.monkeypatch.transformers.trainer_loss_calc.patch_evaluation_loop:110] [PID:7513] [RANK:0] Patched Trainer.evaluation_loop with nanmean loss calculation[39m
+[2025-11-30 03:25:33,506] [INFO] [axolotl.monkeypatch.transformers.trainer_loss_calc.patch_maybe_log_save_evaluate:164] [PID:7513] [RANK:0] Patched Trainer._maybe_log_save_evaluate with nanmean loss calculation[39m
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:50, 42.25 examples/s]Dropping Long Sequences (>512) (num_proc=48):   8%|▊         | 184/2197 [00:01<00:10, 187.48 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1473.45 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 860.21 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 860.21 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 860.21 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 860.21 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 860.21 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 860.21 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 860.21 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 860.21 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 860.21 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 4791.42 examples/s]
+[2025-11-30 03:25:35,627] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7517] [RANK:4] Loading raw datasets...[39m
+[2025-11-30 03:25:35,840] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7517] [RANK:4] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:36,210] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7517] [RANK:4] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:36,210] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7517] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:51, 41.47 examples/s]Dropping Long Sequences (>512) (num_proc=48):   8%|▊         | 184/2197 [00:01<00:10, 190.41 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 2918.23 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1455.08 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 892.20 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 892.20 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 892.20 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 892.20 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 892.20 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 892.20 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 892.20 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 892.20 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 892.20 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 5051.06 examples/s]
+[2025-11-30 03:25:38,701] [INFO] [axolotl.utils.data.sft._load_raw_datasets:314] [PID:7516] [RANK:3] Loading raw datasets...[39m
+[2025-11-30 03:25:38,865] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7516] [RANK:3] Loading dataset: ../Datasets/dataset_20251128_154142_train.jsonl with base_type: completion and prompt_style: None[39m
+[2025-11-30 03:25:39,229] [INFO] [axolotl.utils.data.wrappers.get_dataset_wrapper:88] [PID:7516] [RANK:3] Loading dataset: ../Datasets/dataset_20251128_154142_val.jsonl with base_type: completion and prompt_style: None[39m
+num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+[2025-11-30 03:25:39,229] [WARNING] [datasets.arrow_dataset.map:3100] [PID:7516] num_proc must be <= 23. Reducing num_proc to 23 for dataset of size 23.
+Dropping Long Sequences (>512) (num_proc=48):   0%|          | 0/2197 [00:00<?, ? examples/s]Dropping Long Sequences (>512) (num_proc=48):   2%|▏         | 46/2197 [00:01<00:51, 41.48 examples/s]Dropping Long Sequences (>512) (num_proc=48):  13%|█▎        | 276/2197 [00:01<00:06, 287.11 examples/s]Dropping Long Sequences (>512) (num_proc=48): 100%|██████████| 2197/2197 [00:01<00:00, 1447.73 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/2196 [00:00<?, ? examples/s]Saving the dataset (0/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 897.50 examples/s]Saving the dataset (1/8 shards):  13%|█▎        | 275/2196 [00:00<00:02, 897.50 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 550/2196 [00:00<00:01, 897.50 examples/s]Saving the dataset (3/8 shards):  38%|███▊      | 825/2196 [00:00<00:01, 897.50 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 1100/2196 [00:00<00:01, 897.50 examples/s]Saving the dataset (5/8 shards):  63%|██████▎   | 1374/2196 [00:00<00:00, 897.50 examples/s]Saving the dataset (6/8 shards):  75%|███████▌  | 1648/2196 [00:00<00:00, 897.50 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 1922/2196 [00:00<00:00, 897.50 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 897.50 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 2196/2196 [00:00<00:00, 5081.57 examples/s]
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:  11%|█         | 1/9 [00:03<00:31,  3.96s/it]Loading checkpoint shards:  11%|█         | 1/9 [00:03<00:31,  3.96s/it]Loading checkpoint shards:  11%|█         | 1/9 [00:03<00:31,  3.96s/it]Loading checkpoint shards:  11%|█         | 1/9 [00:03<00:31,  3.96s/it]Loading checkpoint shards:  11%|█         | 1/9 [00:03<00:31,  3.96s/it]Loading checkpoint shards:  11%|█         | 1/9 [00:04<00:33,  4.14s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:28,  4.06s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:28,  4.06s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:28,  4.06s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:28,  4.06s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:28,  4.06s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:08<00:29,  4.15s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.10s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.10s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.10s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.10s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.10s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:12<00:24,  4.15s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.12s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.12s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.12s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.12s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.12s/it]Loading checkpoint shards:  44%|████▍     | 4/9 [00:16<00:20,  4.15s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.17s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.17s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.17s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.17s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.17s/it]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:20<00:16,  4.19s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:24<00:12,  4.17s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:28<00:08,  4.15s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:28<00:08,  4.15s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:28<00:08,  4.15s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:28<00:08,  4.15s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:28<00:08,  4.15s/it]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:29<00:08,  4.16s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:33<00:04,  4.15s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 9/9 [00:35<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 9/9 [00:35<00:00,  3.91s/it]
+[2025-11-30 03:26:31,077] [INFO] [axolotl.loaders.model._configure_embedding_dtypes:345] [PID:7513] [RANK:0] Converting modules to torch.bfloat16[39m
+trainable params: 7,962,624 || all params: 20,922,719,808 || trainable%: 0.0381
+[2025-11-30 03:26:33,565] [INFO] [axolotl.train.save_initial_configs:412] [PID:7513] [RANK:0] Pre-saving adapter config to ./outputs/gpt-oss-20b-creative-writing...[39m
+[2025-11-30 03:26:33,566] [INFO] [axolotl.train.save_initial_configs:416] [PID:7513] [RANK:0] Pre-saving tokenizer to ./outputs/gpt-oss-20b-creative-writing...[39m
+[2025-11-30 03:26:33,871] [INFO] [axolotl.train.save_initial_configs:419] [PID:7513] [RANK:0] Pre-saving model config to ./outputs/gpt-oss-20b-creative-writing...[39m
+[2025-11-30 03:26:33,879] [INFO] [axolotl.train.execute_training:203] [PID:7513] [RANK:0] Starting trainer...[39m
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/phaedawg/.cache/torch_extensions/py311_cu128/cpu_adam/build.ninja...
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.311150550842285 seconds
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/phaedawg/.cache/torch_extensions/py311_cu128/cpu_adam/build.ninja...
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.3118765354156494 seconds
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/phaedawg/.cache/torch_extensions/py311_cu128/cpu_adam/build.ninja...
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.2984161376953125 seconds
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/phaedawg/.cache/torch_extensions/py311_cu128/cpu_adam/build.ninja...
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.2964930534362793 seconds
+Using /home/phaedawg/.cache/torch_extensions/py311_cu128 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/phaedawg/.cache/torch_extensions/py311_cu128/cpu_adam/build.ninja...
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.291626453399658 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.390977621078491 seconds
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+Parameter Offload: Total persistent parameters: 17145408 in 457 params
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+  0%|          | 0/138 [00:00<?, ?it/s]  1%|          | 1/138 [04:41<10:42:18, 281.30s/it]  1%|▏         | 2/138 [08:02<8:50:49, 234.19s/it]   2%|▏         | 3/138 [11:23<8:12:24, 218.85s/it]  3%|▎         | 4/138 [14:43<7:52:41, 211.66s/it]  4%|▎         | 5/138 [18:04<7:40:18, 207.65s/it]  4%|▍         | 6/138 [21:24<7:31:29, 205.23s/it]  5%|▌         | 7/138 [24:45<7:24:40, 203.67s/it]  6%|▌         | 8/138 [28:05<7:19:06, 202.66s/it]  7%|▋         | 9/138 [31:26<7:14:14, 201.97s/it]  7%|▋         | 10/138 [34:46<7:09:56, 201.53s/it]                                                   {'loss': 5.3, 'grad_norm': 7.26810884475708, 'learning_rate': 2.6999999999999996e-05, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.56, 'epoch': 0.22}
+  7%|▋         | 10/138 [34:46<7:09:56, 201.53s/it]  8%|▊         | 11/138 [38:07<7:05:57, 201.24s/it]  9%|▊         | 12/138 [41:28<7:02:13, 201.06s/it]  9%|▉         | 13/138 [44:48<6:58:26, 200.85s/it] 10%|█         | 14/138 [48:08<6:54:52, 200.75s/it] 11%|█         | 15/138 [51:29<6:51:26, 200.70s/it] 12%|█▏        | 16/138 [54:49<6:47:55, 200.62s/it] 12%|█▏        | 17/138 [58:10<6:44:30, 200.58s/it] 13%|█▎        | 18/138 [1:01:30<6:41:07, 200.56s/it] 14%|█▍        | 19/138 [1:04:51<6:37:42, 200.53s/it] 14%|█▍        | 20/138 [1:08:12<6:34:29, 200.59s/it]                                                     {'loss': 4.1954, 'grad_norm': 1.9986052513122559, 'learning_rate': 5.6999999999999996e-05, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.58, 'epoch': 0.44}
+ 14%|█▍        | 20/138 [1:08:12<6:34:29, 200.59s/it] 15%|█▌        | 21/138 [1:11:32<6:31:08, 200.59s/it] 16%|█▌        | 22/138 [1:14:53<6:27:46, 200.58s/it] 17%|█▋        | 23/138 [1:18:13<6:24:23, 200.55s/it] 17%|█▋        | 24/138 [1:21:34<6:21:04, 200.57s/it] 18%|█▊        | 25/138 [1:24:54<6:17:38, 200.52s/it] 19%|█▉        | 26/138 [1:28:15<6:14:23, 200.57s/it] 20%|█▉        | 27/138 [1:31:35<6:11:02, 200.57s/it] 20%|██        | 28/138 [1:34:56<6:07:41, 200.56s/it] 21%|██        | 29/138 [1:38:16<6:04:15, 200.51s/it] 22%|██▏       | 30/138 [1:41:37<6:00:56, 200.52s/it]                                                     {'loss': 3.1199, 'grad_norm': 0.6732344627380371, 'learning_rate': 8.699999999999999e-05, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.59, 'epoch': 0.66}
+ 22%|██▏       | 30/138 [1:41:37<6:00:56, 200.52s/it] 22%|██▏       | 31/138 [1:44:58<5:57:38, 200.55s/it] 23%|██▎       | 32/138 [1:48:18<5:54:16, 200.53s/it] 24%|██▍       | 33/138 [1:51:38<5:50:51, 200.49s/it] 25%|██▍       | 34/138 [1:54:59<5:47:30, 200.48s/it] 25%|██▌       | 35/138 [1:58:20<5:44:13, 200.52s/it] 26%|██▌       | 36/138 [2:01:40<5:40:51, 200.50s/it] 27%|██▋       | 37/138 [2:05:00<5:37:29, 200.49s/it] 28%|██▊       | 38/138 [2:08:21<5:34:12, 200.53s/it] 28%|██▊       | 39/138 [2:11:42<5:30:49, 200.50s/it] 29%|██▉       | 40/138 [2:15:02<5:27:27, 200.48s/it]                                                     {'loss': 2.9952, 'grad_norm': 0.2842063903808594, 'learning_rate': 0.000117, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.59, 'epoch': 0.87}
+ 29%|██▉       | 40/138 [2:15:02<5:27:27, 200.48s/it] 30%|██▉       | 41/138 [2:18:23<5:24:09, 200.51s/it] 30%|███       | 42/138 [2:21:43<5:20:49, 200.52s/it] 31%|███       | 43/138 [2:25:04<5:17:31, 200.54s/it] 32%|███▏      | 44/138 [2:28:24<5:14:06, 200.50s/it] 33%|███▎      | 45/138 [2:31:45<5:10:45, 200.49s/it] 33%|███▎      | 46/138 [2:34:15<4:44:28, 185.53s/it] 34%|███▍      | 47/138 [2:37:36<4:48:23, 190.15s/it] 35%|███▍      | 48/138 [2:40:57<4:49:55, 193.29s/it] 36%|███▌      | 49/138 [2:44:17<4:49:55, 195.46s/it] 36%|███▌      | 50/138 [2:47:38<4:48:55, 196.99s/it]                                                     {'loss': 2.9828, 'grad_norm': 0.18205511569976807, 'learning_rate': 0.000147, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.59, 'epoch': 1.09}
+ 36%|███▌      | 50/138 [2:47:38<4:48:55, 196.99s/it] 37%|███▋      | 51/138 [2:50:58<4:47:11, 198.06s/it] 38%|███▊      | 52/138 [2:54:19<4:44:53, 198.76s/it] 38%|███▊      | 53/138 [2:57:39<4:42:20, 199.31s/it] 39%|███▉      | 54/138 [3:01:00<4:39:32, 199.67s/it] 40%|███▉      | 55/138 [3:04:20<4:36:34, 199.94s/it] 41%|████      | 56/138 [3:07:41<4:33:25, 200.06s/it] 41%|████▏     | 57/138 [3:11:01<4:30:11, 200.15s/it] 42%|████▏     | 58/138 [3:14:22<4:27:02, 200.28s/it] 43%|████▎     | 59/138 [3:17:42<4:23:48, 200.36s/it] 43%|████▎     | 60/138 [3:21:03<4:20:30, 200.39s/it]                                                     {'loss': 2.9445, 'grad_norm': 0.15162993967533112, 'learning_rate': 0.00017699999999999997, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 1.31}
+ 43%|████▎     | 60/138 [3:21:03<4:20:30, 200.39s/it] 44%|████▍     | 61/138 [3:24:23<4:17:14, 200.44s/it] 45%|████▍     | 62/138 [3:27:44<4:13:53, 200.45s/it] 46%|████▌     | 63/138 [3:31:04<4:10:34, 200.45s/it] 46%|████▋     | 64/138 [3:34:25<4:07:16, 200.50s/it] 47%|████▋     | 65/138 [3:37:45<4:03:58, 200.53s/it] 48%|████▊     | 66/138 [3:41:06<4:00:37, 200.51s/it] 49%|████▊     | 67/138 [3:44:26<3:57:15, 200.50s/it] 49%|████▉     | 68/138 [3:47:47<3:54:00, 200.58s/it] 50%|█████     | 69/138 [3:51:08<3:50:40, 200.59s/it] 51%|█████     | 70/138 [3:54:28<3:47:16, 200.54s/it]                                                     {'loss': 2.9288, 'grad_norm': 0.14987386763095856, 'learning_rate': 0.00020699999999999996, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 1.52}
+ 51%|█████     | 70/138 [3:54:28<3:47:16, 200.54s/it] 51%|█████▏    | 71/138 [3:57:49<3:43:55, 200.53s/it] 52%|█████▏    | 72/138 [4:01:09<3:40:32, 200.50s/it] 53%|█████▎    | 73/138 [4:04:30<3:37:13, 200.51s/it] 54%|█████▎    | 74/138 [4:07:50<3:33:54, 200.54s/it] 54%|█████▍    | 75/138 [4:11:11<3:30:33, 200.53s/it] 55%|█████▌    | 76/138 [4:14:31<3:27:08, 200.47s/it] 56%|█████▌    | 77/138 [4:17:52<3:23:49, 200.49s/it] 57%|█████▋    | 78/138 [4:21:12<3:20:27, 200.46s/it] 57%|█████▋    | 79/138 [4:24:32<3:17:06, 200.45s/it] 58%|█████▊    | 80/138 [4:27:53<3:13:44, 200.43s/it]                                                     {'loss': 2.906, 'grad_norm': 0.1800651103258133, 'learning_rate': 0.000237, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 1.74}
+ 58%|█████▊    | 80/138 [4:27:53<3:13:44, 200.43s/it] 59%|█████▊    | 81/138 [4:31:13<3:10:27, 200.48s/it] 59%|█████▉    | 82/138 [4:34:34<3:07:08, 200.51s/it] 60%|██████    | 83/138 [4:37:54<3:03:48, 200.51s/it] 61%|██████    | 84/138 [4:41:15<3:00:27, 200.51s/it] 62%|██████▏   | 85/138 [4:44:35<2:57:03, 200.44s/it] 62%|██████▏   | 86/138 [4:47:56<2:53:44, 200.47s/it] 63%|██████▎   | 87/138 [4:51:16<2:50:27, 200.54s/it] 64%|██████▍   | 88/138 [4:54:37<2:47:06, 200.54s/it] 64%|██████▍   | 89/138 [4:57:57<2:43:45, 200.52s/it] 65%|██████▌   | 90/138 [5:01:18<2:40:24, 200.51s/it]                                                     {'loss': 2.9046, 'grad_norm': 0.17765535414218903, 'learning_rate': 0.000267, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 1.96}
+ 65%|██████▌   | 90/138 [5:01:18<2:40:24, 200.51s/it] 66%|██████▌   | 91/138 [5:04:38<2:37:02, 200.48s/it] 67%|██████▋   | 92/138 [5:07:09<2:22:12, 185.49s/it] 67%|██████▋   | 93/138 [5:10:30<2:22:35, 190.13s/it] 68%|██████▊   | 94/138 [5:13:51<2:21:46, 193.32s/it] 69%|██████▉   | 95/138 [5:17:11<2:20:04, 195.46s/it] 70%|██████▉   | 96/138 [5:20:32<2:17:53, 196.99s/it] 70%|███████   | 97/138 [5:23:52<2:15:17, 197.98s/it] 71%|███████   | 98/138 [5:27:12<2:12:29, 198.75s/it] 72%|███████▏  | 99/138 [5:30:33<2:09:30, 199.24s/it] 72%|███████▏  | 100/138 [5:33:53<2:06:26, 199.64s/it]                                                      {'loss': 2.8842, 'grad_norm': 0.1806686371564865, 'learning_rate': 0.00029699999999999996, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 2.17}
+ 72%|███████▏  | 100/138 [5:33:53<2:06:26, 199.64s/it] 73%|███████▎  | 101/138 [5:37:14<2:03:15, 199.87s/it] 74%|███████▍  | 102/138 [5:40:34<2:00:02, 200.07s/it] 75%|███████▍  | 103/138 [5:43:55<1:56:47, 200.20s/it] 75%|███████▌  | 104/138 [5:47:15<1:53:30, 200.31s/it] 76%|███████▌  | 105/138 [5:50:36<1:50:11, 200.34s/it] 77%|███████▋  | 106/138 [5:53:56<1:46:51, 200.35s/it] 78%|███████▊  | 107/138 [5:57:17<1:43:32, 200.41s/it] 78%|███████▊  | 108/138 [6:00:37<1:40:12, 200.40s/it] 79%|███████▉  | 109/138 [6:03:58<1:36:52, 200.43s/it] 80%|███████▉  | 110/138 [6:07:18<1:33:31, 200.40s/it]                                                      {'loss': 2.8748, 'grad_norm': 0.20508186519145966, 'learning_rate': 0.0002603585866009697, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 2.39}
+ 80%|███████▉  | 110/138 [6:07:18<1:33:31, 200.40s/it] 80%|████████  | 111/138 [6:10:39<1:30:12, 200.45s/it] 81%|████████  | 112/138 [6:13:59<1:26:51, 200.43s/it] 82%|████████▏ | 113/138 [6:17:20<1:23:32, 200.49s/it] 83%|████████▎ | 114/138 [6:20:40<1:20:11, 200.48s/it] 83%|████████▎ | 115/138 [6:24:01<1:16:52, 200.52s/it] 84%|████████▍ | 116/138 [6:27:21<1:13:30, 200.46s/it] 85%|████████▍ | 117/138 [6:30:41<1:10:08, 200.43s/it] 86%|████████▌ | 118/138 [6:34:02<1:06:48, 200.44s/it] 86%|████████▌ | 119/138 [6:37:22<1:03:28, 200.47s/it] 87%|████████▋ | 120/138 [6:40:43<1:00:08, 200.50s/it]                                                      {'loss': 2.8839, 'grad_norm': 0.18429125845432281, 'learning_rate': 0.00015, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 2.61}
+ 87%|████████▋ | 120/138 [6:40:43<1:00:08, 200.50s/it] 88%|████████▊ | 121/138 [6:44:03<56:47, 200.46s/it]   88%|████████▊ | 122/138 [6:47:24<53:27, 200.48s/it] 89%|████████▉ | 123/138 [6:50:44<50:07, 200.47s/it] 90%|████████▉ | 124/138 [6:54:05<46:47, 200.51s/it] 91%|█████████ | 125/138 [6:57:25<43:26, 200.51s/it] 91%|█████████▏| 126/138 [7:00:46<40:06, 200.54s/it] 92%|█████████▏| 127/138 [7:04:06<36:45, 200.51s/it] 93%|█████████▎| 128/138 [7:07:27<33:25, 200.50s/it] 93%|█████████▎| 129/138 [7:10:47<30:04, 200.51s/it] 94%|█████████▍| 130/138 [7:14:08<26:43, 200.50s/it]                                                    {'loss': 2.9082, 'grad_norm': 0.20242822170257568, 'learning_rate': 3.964141339903026e-05, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 16.66, 'epoch': 2.83}
+ 94%|█████████▍| 130/138 [7:14:08<26:43, 200.50s/it] 95%|█████████▍| 131/138 [7:17:28<23:23, 200.48s/it] 96%|█████████▌| 132/138 [7:20:49<20:02, 200.44s/it] 96%|█████████▋| 133/138 [7:24:09<16:42, 200.45s/it] 97%|█████████▋| 134/138 [7:27:30<13:21, 200.44s/it] 98%|█████████▊| 135/138 [7:30:50<10:01, 200.43s/it] 99%|█████████▊| 136/138 [7:34:11<06:40, 200.50s/it] 99%|█████████▉| 137/138 [7:37:31<03:20, 200.50s/it]100%|██████████| 138/138 [7:40:02<00:00, 185.50s/it][2025-11-30 11:07:36,246] [INFO] [axolotl.core.trainers.base._save:613] [PID:7513] [RANK:0] Saving model checkpoint to ./outputs/gpt-oss-20b-creative-writing/checkpoint-138[39m
+[2025-11-30 11:07:36,290] [INFO] [axolotl.core.trainers.base._save:662] [PID:7513] [RANK:0] Saving Trainer.data_collator.tokenizer by default as Trainer.processing_class is `None`[39m
+                                                    {'train_runtime': 27655.644, 'train_samples_per_second': 0.24, 'train_steps_per_second': 0.005, 'train_loss': 3.2034637340600938, 'memory/max_mem_active(gib)': 14.3, 'memory/max_mem_allocated(gib)': 13.11, 'memory/device_mem_reserved(gib)': 18.05, 'epoch': 3.0}
+100%|██████████| 138/138 [7:40:55<00:00, 185.50s/it]100%|██████████| 138/138 [7:40:55<00:00, 200.40s/it]
+[2025-11-30 11:07:37,027] [INFO] [axolotl.train.save_trained_model:228] [PID:7513] [RANK:0] Training completed! Saving trained model to ./outputs/gpt-oss-20b-creative-writing.[39m
+/home/phaedawg/axolotl/venv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[2025-11-30 11:08:33,336] [INFO] [axolotl.core.trainers.base._save:613] [PID:7513] [RANK:0] Saving model checkpoint to ./outputs/gpt-oss-20b-creative-writing[39m
+[2025-11-30 11:08:33,369] [INFO] [axolotl.core.trainers.base._save:662] [PID:7513] [RANK:0] Saving Trainer.data_collator.tokenizer by default as Trainer.processing_class is `None`[39m
+[2025-11-30 11:08:33,618] [INFO] [axolotl.train.save_trained_model:350] [PID:7513] [RANK:0] Model successfully saved to ./outputs/gpt-oss-20b-creative-writing[39m
+I1130 11:08:33.984000 7533 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:33.984000 7533 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:33.985000 7533 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:33.985000 7533 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:33.985000 7533 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:33.988000 7533 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:33.988000 7533 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:33.988000 7533 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:33.988000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.988000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.989000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:33.990000 7533 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:33.994000 7533 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:33.994000 7533 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:33.994000 7533 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:34.405000 7539 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:34.405000 7539 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:34.405000 7539 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:34.405000 7539 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:34.405000 7539 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:34.409000 7539 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:34.409000 7539 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:34.409000 7539 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:34.410000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.410000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.410000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.410000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.411000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.411000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.411000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.411000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.411000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.412000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.412000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.412000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.412000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.413000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.413000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.413000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.413000 7539 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:34.417000 7539 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:34.417000 7539 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:34.417000 7539 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:34.422000 7535 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:34.422000 7535 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:34.423000 7535 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:34.423000 7535 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:34.423000 7535 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:34.427000 7535 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:34.427000 7535 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:34.427000 7535 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:34.427000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.427000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.427000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.427000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.427000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.428000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.429000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.429000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.429000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.429000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.429000 7535 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:34.434000 7535 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:34.434000 7535 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:34.434000 7535 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:34.438000 7537 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:34.438000 7537 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:34.438000 7537 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:34.438000 7537 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:34.438000 7537 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:34.442000 7537 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:34.442000 7537 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:34.442000 7537 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:34.442000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.442000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.442000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.442000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.442000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.443000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.444000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.444000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.444000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.444000 7537 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:34.447000 7537 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:34.447000 7537 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:34.447000 7537 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:34.450000 7531 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:34.450000 7531 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:34.450000 7531 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:34.450000 7531 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:34.450000 7531 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:34.454000 7531 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:34.454000 7531 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:34.454000 7531 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:34.454000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.454000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.454000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.454000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.455000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.456000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.456000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.456000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:34.456000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:34.456000 7531 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:34.459000 7531 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:34.459000 7531 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:34.459000 7531 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:38.527000 7541 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:38.527000 7541 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:38.527000 7541 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:38.527000 7541 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:38.527000 7541 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:38.530000 7541 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:38.530000 7541 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:38.530000 7541 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.531000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.532000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:38.533000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:38.533000 7541 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:38.536000 7541 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:38.536000 7541 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:38.536000 7541 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0
+I1130 11:08:41.264000 7137 torch/_inductor/remote_cache.py:417] Cache Metrics: None
+I1130 11:08:41.264000 7137 torch/_inductor/remote_cache.py:417] 
+I1130 11:08:41.265000 7137 torch/_dynamo/eval_frame.py:475] TorchDynamo attempted to trace the following frames: [
+I1130 11:08:41.265000 7137 torch/_dynamo/eval_frame.py:475] 
+I1130 11:08:41.265000 7137 torch/_dynamo/eval_frame.py:475] ]
+I1130 11:08:41.269000 7137 torch/_dynamo/utils.py:765] TorchDynamo compilation metrics:
+I1130 11:08:41.269000 7137 torch/_dynamo/utils.py:765] Function    Runtimes (s)
+I1130 11:08:41.269000 7137 torch/_dynamo/utils.py:765] ----------  --------------
+V1130 11:08:41.270000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats constrain_symbol_range: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.270000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats defer_runtime_assert: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.270000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats evaluate_expr: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.270000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _simplify_floor_div: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.270000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_guard_rel: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.271000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _find: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.271000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats has_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.271000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats size_hint: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.271000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats simplify: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.271000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _update_divisible: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats replace: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_implications: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats get_axioms: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats _maybe_evaluate_static_worker: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+V1130 11:08:41.272000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats safe_expand: CacheInfo(hits=0, misses=0, maxsize=256, currsize=0)
+V1130 11:08:41.273000 7137 torch/fx/experimental/symbolic_shapes.py:166] lru_cache_stats uninteresting_files: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+I1130 11:08:41.274000 7137 torch/_subclasses/fake_tensor.py:2843] FakeTensor cache stats:
+I1130 11:08:41.274000 7137 torch/_subclasses/fake_tensor.py:2844]   cache_hits: 0
+I1130 11:08:41.275000 7137 torch/_subclasses/fake_tensor.py:2845]   cache_misses: 0

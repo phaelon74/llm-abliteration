@@ -1,0 +1,89 @@
+# Axolotl Fine-Tuning Configuration for GPT-OSS-20B Abliterated Model
+# Simplified version using single dataset with automatic validation split
+# Use this if the dual-dataset config doesn't work
+
+# Base model configuration
+base_model: /media/fmodels/TheHouseOfTheDude/gpt-oss-20b_uncanned
+# model_type: gpt_neox  # Not needed - Axolotl and newer transformers support gpt_oss natively
+trust_remote_code: false  # Not needed with updated transformers
+
+# LoRA configuration
+adapter: lora
+lora_model_dir: ./lora_outputs/gpt-oss-20b-creative-writing
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+# Dataset configuration - single dataset with automatic split
+datasets:
+  - path: ../Datasets/dataset_20251128_154142.jsonl
+    type: text
+    text_column: text
+    val_set_size: 0.1  # 10% for validation
+
+# Training configuration
+output_dir: ./outputs/gpt-oss-20b-creative-writing
+num_epochs: 3
+micro_batch_size: 1
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 8
+# batch_size: 48  # Removed - Axolotl requires only one of gradient_accumulation_steps OR batch_size
+learning_rate: 3e-4
+lr_scheduler: cosine
+warmup_steps: 100
+# warmup_ratio: 0.1  # Mutually exclusive with warmup_steps - removed
+optimizer: adamw_torch
+weight_decay: 0.01
+max_seq_length: 2048
+bf16: true
+fp16: false
+tf32: true
+
+# Logging and checkpointing
+logging_steps: 10
+save_steps: 500
+eval_steps: 500
+save_total_limit: 3
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false
+
+# Multi-GPU configuration
+# For RTX 6000 Pros (48GB VRAM) - use FSDP
+# For RTX 3090s (24GB VRAM) - use DeepSpeed ZeRO Stage 2 if memory constrained
+
+# Option 1: FSDP (Fully Sharded Data Parallel) - Recommended for RTX 6000 Pros
+# Commented out due to configuration issues - using DeepSpeed instead
+# fsdp:
+#   - full_shard
+#   - auto_wrap
+
+# Option 2: DeepSpeed ZeRO Stage 2 - More reliable, works for both RTX 6000 Pros and RTX 3090s
+deepspeed: deepspeed_config.json
+
+# Additional training settings
+gradient_checkpointing: true
+dataloader_num_workers: 4
+remove_unused_columns: false
+ddp_timeout: 1800
+group_by_length: false
+
+# Evaluation configuration
+eval_strategy: steps
+
+# Generation configuration (for testing)
+generation_config:
+  max_new_tokens: 512
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true
+
